@@ -1,0 +1,149 @@
+.page{
+  height: 100vh;
+  background: #333333;
+}
+
+.appContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+/* cells */
+
+.cell {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.cell:hover{
+  height: 25vh;
+  transition: .5s;
+}
+
+.cell:hover .description{
+  opacity: 100%;
+  visibility: visible;
+  transition: .5s;
+}
+
+.cell h2{
+  transition: .5s;
+}
+
+.description {
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+    text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+             1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+.tech {
+  text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+             1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  opacity: 0;
+  transition: .5s;
+}
+
+/* banners */
+
+.banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: auto;
+  object-fit: cover;
+  opacity: 40%;
+  transition: .5s;
+}
+
+.cell:hover .banner{
+  opacity: 100%;
+}
+
+.cell:hover .tech{
+  opacity: 100%;
+  transition: .5s;
+}
+
+
+.reactBanner {
+  background-image: url('../../static/banners/react.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.muiBanner {
+  background-image: url('../../static/banners/materialui.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nextuiBanner {
+  background-image: url('../../static/banners/nextui.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.expressBanner {
+  background-image: url('../../static/banners/express.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mongoBanner {
+  background-image: url('../../static/banners/mongo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.unityBanner {
+  background-image: url('../../static/banners/unity.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.winBanner {
+  background-image: url('../../static/banners/vscommunity.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

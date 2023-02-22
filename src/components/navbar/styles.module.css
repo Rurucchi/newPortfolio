@@ -1,0 +1,105 @@
+
+
+.navSwitch{
+  opacity: 100%;
+  position: fixed;
+  margin: 6px;
+  margin-top: 12px;
+  border: none;
+  display: flex;
+  background-color: transparent;
+  opacity: 60%;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.line{
+    opacity: 100%;
+    width: 60%;
+    height: 2px;
+    background-color: black;
+}
+
+.navbar {
+  z-index: 1;
+  position: fixed;
+  background: #222224 ;
+  right: -250px;
+  height: 100vh;
+  width: 250px;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  height: 35%;
+  width: 100%;
+}
+
+.menu {
+  visibility: hidden;
+  font-size: 1.30em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7%;
+}
+
+.navContainer {
+  z-index: 99;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  top:0;
+  background: #222224 ;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.links {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.menuLine {
+  width: 1px;
+  height: 0;
+  background-color: white;
+}
+
+.sourceLink {
+  color: yellow;
+}
+
+.extras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.links:hover {
+  color: rgb(208, 255, 0);
+}

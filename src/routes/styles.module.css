@@ -1,0 +1,132 @@
+
+/*  ---------------- LAYOUT  --------------   */
+
+/* loading */
+
+.outlet{
+  margin: 0;
+  position: fixed;
+  color: white;
+  background: #111;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #111;
+  color: #ffffff;
+  transition: opacity 1s ease;
+  animation-duration: 3s;
+  animation-name: fadeout;
+  opacity: 0;
+  z-index: -1;
+}
+
+.loadingBar {
+  top: 50%;
+  transform: translateY(-50%);
+  position: fixed;
+  width: 100vw;
+  background: #deff00;
+  height: 1vh;
+  animation-duration: 3s;
+  animation-name: loadBar;
+  opacity: 0;
+  z-index: -1;
+}
+
+.loadingMessage {
+  position: fixed;
+  display: flex;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  z-index: -1;
+  opacity: 0%;
+  animation-duration: 3s;
+  animation-name: loadingFade;
+}
+
+@keyframes loadingFade {
+  from {
+    z-index: 99;
+    opacity: 100%;
+  }
+  17% {
+    opacity: 40%;
+  }
+  34% {
+    opacity: 100%;
+  }
+  55% {
+    opacity: 40%;
+  }
+  to {
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+
+@keyframes fadeout {
+  from {
+    z-index: 99;
+    opacity: 100%;
+  }
+  55% {
+    opacity: 100%;
+  }
+  to {
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+@keyframes loadBar {
+  from {
+    z-index: 99;
+    opacity: 100%;
+    width: 0;
+  }
+  55% {
+    opacity: 100%;
+    width: 100vw;
+  }
+  to {
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+
+
+/*  ---------------- HOME --------------   */
+
+.appContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.homeBg {
+  opacity: 50%;
+  z-index:-1;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../static/placeholderbg.jpg");
+}
+
