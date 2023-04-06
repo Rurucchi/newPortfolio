@@ -10,7 +10,7 @@
 			<h1 class={styles.title}>Work Experience</h1>
 			<div class={styles.contentContainer}>
 				<ProjectBubble
-					title="Next Up (Private Repo)"
+					title="Next Up (6 Month Internship)"
 					description="Management app made with React and Express for Highschool and University sports teams"
 					background="src/static/projectImage/nextup.png"
 					link="https://github.com/Next-Up-Technologies"
