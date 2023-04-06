@@ -4,10 +4,11 @@
 /* loading */
 
 .outlet{
+  gap:0;
   margin: 0;
   position: fixed;
   color: white;
-  background: #111;
+  background: #333333;
   top:0;
   left: 0;
   height: 100vh;
@@ -111,8 +112,8 @@
 /*  ---------------- HOME --------------   */
 
 .appContainer {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -127,6 +128,46 @@
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../static/placeholderbg.jpg");
+  background-image: url("../static/images/bg.gif");
+  filter: blur(5px);
 }
 
+.pfp {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.infoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pfpContainer {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nameContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 3px;
+}

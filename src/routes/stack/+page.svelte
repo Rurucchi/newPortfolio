@@ -8,83 +8,189 @@
 		<h1 class={styles.title}>Tech-Stack</h1>
 		<p class={styles.subtitle}>Everything I use and I feel comfortable with</p>
 	</div>
+
 	<div class={styles.appContainer}>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.reactBanner)}>
-				<h2 class={styles.tech}>React</h2>
-				<p class={styles.description}>
-					<a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a> is a free and open-source
-					front-end JavaScript library for building user interfaces based on components.
-				</p>
+		<!-- REACT -->
+		<div class={styles.dividedCell}>
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.reactBanner)}>
+					<h2 class={styles.tech}>React</h2>
+					<p class={styles.description}>
+						<a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a> is a free and open-source
+						front-end JavaScript library for building user interfaces based on components.
+					</p>
+				</div>
+			</div>
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.nextBanner)}>
+					<h2 class={styles.tech}>Next.js</h2>
+					<p class={styles.description}>
+						<a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next.js</a> is an open-source
+						web development framework created by Vercel enabling React-based web applications with server-side
+						rendering and generating static websites.
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.muiBanner)}>
-				<h2 class={styles.tech}>Material-UI</h2>
-				<p class={styles.description}>
-					Material UI is an open-source front-end <a
-						href="https://reactjs.org/"
-						target="_blank"
-						rel="noreferrer">React</a
-					> component library developed by Google.
-				</p>
+
+		<!-- NATIVE AND EXPO -->
+		<div class={styles.dividedCell}>
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.nativeBanner)}>
+					<h2 class={styles.tech}>React Native</h2>
+					<p class={styles.description}>
+						<a href="https://reactnative.dev/" target="_blank" rel="noreferrer">React Native</a> is
+						an open-source UI software framework created by Meta Platforms, Inc. It is used to
+						develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by
+						enabling developers to use the
+						<a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a> framework along
+						with native platform capabilities.
+					</p>
+				</div>
+			</div>
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.expoBanner)}>
+					<h2 class={styles.tech}>Expo</h2>
+					<p class={styles.description}>
+						<a href="https://expo.dev/" target="_blank" rel="noreferrer">Expo</a> is an open-source
+						platform for making universal native apps for Android, iOS, and the web with JavaScript
+						and <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a>.
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.nextuiBanner)}>
-				<h2 class={styles.tech}>NextUI</h2>
-				<p class={styles.description}>
-					NextUI is an open-source component library for <a
-						href="https://reactjs.org/"
-						target="_blank"
-						rel="noreferrer">React</a
-					>
-				</p>
+
+		<!-- SVELTE & FIGMA -->
+
+		<div class={styles.dividedCell}>
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.svelteBanner)}>
+					<h2 class={styles.tech}>SvelteKit</h2>
+					<p class={styles.description}>
+						<a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a> is an
+						opensource backend framework built on
+						<a href="https://svelte.dev/" target="_blank" rel="noreferrer">Svelte</a>. It uses
+						<a
+							href="https://en.wikipedia.org/wiki/Hydration_(web_development)"
+							target="_blank"
+							rel="noreferrer">hydration</a
+						>
+						along with
+						<a href="https://web.dev/rendering-on-the-web/" target="_blank" rel="noreferrer"
+							>CSR or SSR</a
+						> to render websites and apps on the browser.
+					</p>
+				</div>
+			</div>
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.figmaBanner)}>
+					<h2 class={styles.tech}>Figma</h2>
+					<p class={styles.description}>
+						<a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a> is a collaborative
+						web application for interface design, with additional offline features enabled by desktop
+						applications for macOS and Windows.
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.expressBanner)}>
-				<h2 class={styles.tech}>Express</h2>
-				<p class={styles.description}>
-					Express.js, also called Express, is a back-end framework made for building RESTful APIs
-					with <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">Node.js</a>
-				</p>
+
+		<!-- UI LIBRARIES -->
+
+		<div class={styles.dividedCell}>
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.muiBanner)}>
+					<h2 class={styles.tech}>Material-UI</h2>
+					<p class={styles.description}>
+						Material UI is an open-source front-end <a
+							href="https://reactjs.org/"
+							target="_blank"
+							rel="noreferrer">React</a
+						> component library developed by Google.
+					</p>
+				</div>
+			</div>
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.nextuiBanner)}>
+					<h2 class={styles.tech}>NextUI</h2>
+					<p class={styles.description}>
+						NextUI is an open-source component library for <a
+							href="https://reactjs.org/"
+							target="_blank"
+							rel="noreferrer">React</a
+						>
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.mongoBanner)}>
-				<h2 class={styles.tech}>MongoDB</h2>
-				<p class={styles.description}>
-					Developped by <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"
-						>MongoDB</a
-					>
-					Inc., MongoDB is a source-available cross-platform document-oriented database program. Classified
-					as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
-				</p>
+
+		<div class={styles.dividedCell}>
+			<!-- EXPRESS -->
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.expressBanner)}>
+					<h2 class={styles.tech}>Express</h2>
+					<p class={styles.description}>
+						<a href="https://expressjs.com/" target="_blank" rel="noreferrer">Express.js</a>, also
+						called Express, is a back-end framework made for building
+						<a
+							href="https://en.wikipedia.org/wiki/Representational_state_transfer"
+							target="_blank"
+							rel="noreferrer">RESTful</a
+						>
+						APIs with
+						<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">Node.js</a>
+					</p>
+				</div>
+			</div>
+
+			<!-- MONGODB -->
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.mongoBanner)}>
+					<h2 class={styles.tech}>MongoDB</h2>
+					<p class={styles.description}>
+						Developped by <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"
+							>MongoDB</a
+						>
+						Inc., MongoDB is a source-available cross-platform document-oriented database program. Classified
+						as a
+						<a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank" rel="noreferrer">NOSQL</a>
+						database program, MongoDB uses JSON-like documents with optional schemas.
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.unityBanner)}>
-				<h2 class={styles.tech}>Unity</h2>
-				<p class={styles.description}>
-					Unity is a cross-platform game engine developed by Unity Technologies, it uses the <a
-						href="https://dotnet.microsoft.com/en-us/"
-						target="_blank"
-						rel="noreferrer">.NET</a
-					>
-					framework made by Microsoft.
-				</p>
+
+		<div class={styles.dividedCell}>
+			<!-- UNITY -->
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.unityBanner)}>
+					<h2 class={styles.tech}>Unity</h2>
+					<p class={styles.description}>
+						<a href="https://unity.com/" target="_blank" rel="noreferrer">Unity</a> is a
+						cross-platform game engine developed by Unity Technologies, it uses the
+						<a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer">.NET</a>
+						framework made by Microsoft.
+					</p>
+				</div>
 			</div>
-		</div>
-		<div class={styles.cell}>
-			<div class={cx(styles.banner, styles.winBanner)}>
-				<h2 class={styles.tech}>Windows Forms</h2>
-				<p class={styles.description}>
-					Windows Forms is a free and open-source graphical class library included as a part of
-					Microsoft <a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"
-						>.NET</a
-					> framework
-				</p>
+
+			<!-- FORMS -->
+
+			<div class={styles.cell}>
+				<div class={cx(styles.banner, styles.winBanner)}>
+					<h2 class={styles.tech}>Windows Forms</h2>
+					<p class={styles.description}>
+						Windows Forms is a free and open-source graphical class library included as a part of
+						Microsoft <a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"
+							>.NET</a
+						> framework
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
