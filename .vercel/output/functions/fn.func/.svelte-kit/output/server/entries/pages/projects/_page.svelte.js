@@ -48,11 +48,11 @@ const ProjectBubble = create_ssr_component(($$result, $$props, $$bindings, slots
 </div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div${add_attribute("class", styles$1.body, 0)}><div${add_attribute("class", styles$1.appContainer, 0)}><div${add_attribute("class", cx(styles$1.column, styles$1.projectSection, styles$1.center), 0)}><h1${add_attribute("class", styles$1.title, 0)}>Work Experience</h1>
+  return `<div${add_attribute("class", styles$1.body, 0)}><div${add_attribute("class", styles$1.appContainer, 0)}><div${add_attribute("class", cx(styles$1.column, styles$1.projectSection, styles$1.center), 0)}><h1${add_attribute("class", styles$1.title, 0)}>Professional Projects</h1>
 			<div${add_attribute("class", styles$1.contentContainer, 0)}>${validate_component(ProjectBubble, "ProjectBubble").$$render(
     $$result,
     {
-      title: "Next Up (Private Repo)",
+      title: "Next Up (6 Month Internship)",
       description: "Management app made with React and Express for Highschool and University sports teams",
       background: "src/static/projectImage/nextup.png",
       link: "https://github.com/Next-Up-Technologies"
