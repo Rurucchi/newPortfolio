@@ -7,7 +7,7 @@
 <div class={styles.body}>
 	<div class={styles.appContainer}>
 		<div class={cx(styles.column, styles.projectSection, styles.center)}>
-			<h1 class={styles.title}>Work Experience</h1>
+			<h1 class={styles.title}>Professional Projects</h1>
 			<div class={styles.contentContainer}>
 				<ProjectBubble
 					title="Next Up (6 Month Internship)"
