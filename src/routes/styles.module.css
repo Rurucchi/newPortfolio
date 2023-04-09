@@ -128,7 +128,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/bg.gif");
+  background-image: url("background/home.gif");
   filter: blur(5px);
 }
 
