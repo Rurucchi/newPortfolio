@@ -126,84 +126,84 @@
 
 
 .reactBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/react.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/react.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .muiBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/materialui.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('src/static/banners/materialui.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .nextuiBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/nextui.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/nextui.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .expressBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/express.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/express.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .mongoBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/mongo.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('src/static/banners/mongo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .unityBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/unity.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('src/static/banners/unity.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .winBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/vscommunity.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/vscommunity.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .nextBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/nextjs.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/nextjs.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .nativeBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/react_native.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/react_native.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .expoBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/expo.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/expo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .svelteBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/sveltekit.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/sveltekit.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .figmaBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/figma.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/static/banners/figma.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
