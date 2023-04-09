@@ -1,6 +1,6 @@
-import adapter from "@sveltejs/adapter-vercel";
+import adapter from "@sveltejs/adapter-static";
 
-/** @type {import('@sveltejs/adapter-vercel').Config} */
+/** @type {import('@sveltejs/adapter-static').Config} */
 const config = {
   kit: {
     adapter: adapter({
