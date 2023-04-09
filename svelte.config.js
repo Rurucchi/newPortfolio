@@ -1,10 +1,12 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from "@sveltejs/adapter-vercel";
 
-/** @type {import('@sveltejs/kit').Config} */
+/** @type {import('@sveltejs/adapter-vercel').Config} */
 const config = {
-	kit: {
-		adapter: adapter({})
-	}
+  kit: {
+    adapter: adapter({
+      runtime: "nodejs18.x",
+    }),
+  },
 };
 
 export default config;
