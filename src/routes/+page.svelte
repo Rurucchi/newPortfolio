@@ -1,7 +1,4 @@
 <script>
-  //svelte
-  export const ssr = false;
-
   //styles
   import styles from "./styles.module.css";
 
