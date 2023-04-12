@@ -41,43 +41,20 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  transition: .5s;
+  transition: .4s;
 }
 
 .cell {
+  position: relative;
   width: 100%;
   height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: .5s;
+  transition: .4s;
   overflow: hidden;
-}
-
-.cell:hover{
-  height: 25vh;
-  transition: .5s;
-}
-
-.dividedCell:hover{
-  height: 25vh;
-  transition: .5s;
-}
-
-.dividedCell:hover .cell{
-  height: 25vh;
-  transition: .5s;
-}
-
-.cell:hover .description{
-  opacity: 100%;
-  visibility: visible;
-  transition: .5s;
-}
-
-.cell h2{
-  transition: .5s;
+  background-color: black;
 }
 
 .description {
@@ -85,7 +62,7 @@
   margin-right: 5%;
   opacity: 0;
   visibility: hidden;
-  transition: .5s;
+  transition: .4s;
     /* text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
              1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
   
@@ -95,25 +72,39 @@
   /* text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
              1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
   opacity: 0;
-  transition: .5s;
+  transition: .4s;
 }
 
 /* banners */
 
-.banner {
+.content {
+  position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: auto;
   object-fit: cover;
-  opacity: 40%;
+  opacity: 0%;
   transition: .5s;
+  overflow: hidden;
 }
 
+.bgImage {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 
+/* hovering stuff */
 
 .cell:hover .banner{
   opacity: 100%;
@@ -121,90 +112,35 @@
 
 .cell:hover .tech{
   opacity: 100%;
-  transition: .5s;
+  transition: .4s;
 }
 
-
-.reactBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/react.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cell:hover{
+  height: 25vh;
+  transition: .4s;
 }
 
-.muiBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/materialui.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cell:hover .content{
+  opacity: 100%;
+  transition: .4s;
 }
 
-.nextuiBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/nextui.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cell:hover .bgImage{
+  opacity: 50%;
 }
 
-.expressBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/express.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.dividedCell:hover{
+  height: 25vh;
+  transition: .4s;
 }
 
-.mongoBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/mongo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.dividedCell:hover .cell{
+  height: 25vh;
+  transition: .4s;
 }
 
-.unityBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('banners/unity.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.winBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/vscommunity.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.nextBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/nextjs.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.nativeBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/react_native.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.expoBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/expo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.svelteBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/sveltekit.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.figmaBanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banners/figma.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cell:hover .description{
+  opacity: 100%;
+  visibility: visible;
+  transition: .4s;
 }

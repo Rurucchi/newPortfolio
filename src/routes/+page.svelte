@@ -8,7 +8,12 @@
 </script>
 
 <div class={styles.appContainer}>
-  <div class={styles.homeBg} />
+  <img
+    src="background/home.gif"
+    alt="bg"
+    class={styles.homeBg}
+    unselectable="on"
+  />
   <div class={styles.infoContainer}>
     <div class={styles.pfpContainer}>
       <img src="pfp/pfp.png" alt="pfp" class={styles.pfp} />

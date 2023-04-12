@@ -6,6 +6,7 @@
 
 <div class={styles.body}>
   <div class={styles.appContainer}>
+    <img src="background/project.png" alt="bg" class={styles.bgImage} />
     <div class={cx(styles.column, styles.projectSection, styles.center)}>
       <h1 class={styles.title}>Professional Projects</h1>
       <div class={styles.contentContainer}>
