@@ -1,6 +1,5 @@
 <script>
   import styles from "./styles.module.css";
-  import cx from "../../utils";
 
   export let title;
   export let description;

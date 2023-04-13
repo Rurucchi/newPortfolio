@@ -11,6 +11,8 @@
   padding: 2%;
   border: 1px white solid;
   overflow: auto;
+  box-shadow:
+  10px 10px 0 10px #272727a2,
 }
 
 .button {
@@ -26,6 +28,11 @@
   margin: 0;
   padding: 0;
   border: 1px solid rgb(255, 255, 255);
+  box-shadow:
+  2px 2px 0 2px #100f256e;
+
+  transition: .1s ease-in-out transform,
+  .1s ease-in-out box-shadow;
 }
 
 .icon {
@@ -35,4 +42,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* hovering stuff */
+
+.button:hover {
+  transform: 
+  translate3d(-3px, -3px, 0px);
+  box-shadow:
+  3px 3px 0 3px #0000006e;
 }
