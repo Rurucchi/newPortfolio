@@ -54,7 +54,7 @@
     <div class={styles.dividedCell}>
       <div class={styles.cell}>
         <img
-          src="banners/react_native.png"
+          src="banners/react_native.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -77,7 +77,7 @@
 
       <div class={styles.cell}>
         <img
-          src="banners/expo.png"
+          src="banners/expo.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -102,7 +102,7 @@
     <div class={styles.dividedCell}>
       <div class={styles.cell}>
         <img
-          src="banners/sveltekit.png"
+          src="banners/sveltekit.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -134,7 +134,7 @@
 
       <div class={styles.cell}>
         <img
-          src="banners/figma.png"
+          src="banners/figma.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -156,7 +156,7 @@
     <div class={styles.dividedCell}>
       <div class={styles.cell}>
         <img
-          src="banners/materialui.png"
+          src="banners/materialui.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -198,7 +198,7 @@
 
       <div class={styles.cell}>
         <img
-          src="banners/express.png"
+          src="banners/express.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -226,7 +226,7 @@
 
       <div class={styles.cell}>
         <img
-          src="banners/mongo.png"
+          src="banners/mongo.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -256,7 +256,7 @@
       <!-- UNITY -->
       <div class={styles.cell}>
         <img
-          src="banners/unity.png"
+          src="banners/unity.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
@@ -283,7 +283,7 @@
 
       <div class={styles.cell}>
         <img
-          src="banners/vscommunity.png"
+          src="banners/vscommunity.jpg"
           alt="bg"
           class={styles.bgImage}
           unselectable="on"
