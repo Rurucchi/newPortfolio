@@ -1,6 +1,11 @@
 <script>
   import styles from "./styles.module.css";
   import { cx } from "../../utils";
+
+  window.addEventListener("load", (event) => {
+    let image = document.querySelector("img");
+    let isLoaded = image.complete && image.naturalHeight !== 0;
+  });
 </script>
 
 <div class={styles.page}>
@@ -29,7 +34,6 @@
           </p>
         </div>
       </div>
-
       <div class={styles.cell}>
         <img
           src="banners/nextjs.jpeg"
@@ -37,6 +41,14 @@
           class={styles.bgImage}
           unselectable="on"
         />
+        <!-- <div class={styles.contentContainer}>
+          {#if isLoaded}
+            <div class={styles.loading}>
+              <div />
+              <div />
+              <div />
+            </div>
+          {/if} -->
         <div class={styles.content}>
           <h2 class={styles.tech}>Next.js</h2>
           <p class={styles.description}>
@@ -48,6 +60,7 @@
           </p>
         </div>
       </div>
+      <!-- </div> -->
     </div>
 
     <!-- NATIVE AND EXPO -->
