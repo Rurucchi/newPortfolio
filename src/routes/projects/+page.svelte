@@ -28,6 +28,12 @@
           background="projectImage/readit.png"
         />
         <ProjectBubble
+          title="NextChat"
+          description="Chatting app made with NextJs and Firebase."
+          link="https://github.com/Rurucchi/nextchat"
+          background="projectImage/nextchat.png"
+        />
+        <ProjectBubble
           title="Portfolio"
           description="Portfolio website made with SvelteKit."
           link="https://github.com/Rurucchi/newPortfolio"
